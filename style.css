@@ -93,3 +93,20 @@ h2 {
   justify-content: center;
   gap: 35px;
 }
+
+blockquote {
+  background-color: #e5e7eb;
+  font-size: 26px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 120px 300px;
+  margin: 0;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 50px;
+}
