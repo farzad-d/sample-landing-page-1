@@ -54,10 +54,12 @@ button {
   font-size: 16px;
   padding: 8px 30px;
   border-radius: 10px;
+  border: 2px solid #3882f6;
+  box-sizing: border-box;
   font-weight: bold;
 }
 
-img {
+.introduction img {
   margin-left: 80px;
   width: 500px;
   height: 250px;
@@ -109,4 +111,29 @@ cite {
   font-style: normal;
   font-weight: 400;
   margin-right: 50px;
+}
+
+.sign-up {
+  display: flex;
+  border: 1px solid #3882f6;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  margin: 100px 180px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+}
+
+.sign-up button {
+  border-color: white;
+}
+
+.sign-up p {
+  color: #e0e0e0;
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
 }
