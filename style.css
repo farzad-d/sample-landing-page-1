@@ -59,6 +59,18 @@ button {
   font-weight: bold;
 }
 
+button:hover {
+  background-color: white;
+  color: #3882f6;
+  border-color: #3882f6;
+  transition: all 0.5s ease;
+}
+
+nav a:hover {
+  color: skyblue;
+  transition: 0.5s;
+}
+
 .introduction img {
   margin-left: 80px;
   width: 500px;
@@ -94,6 +106,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 35px;
+  flex-wrap: wrap;
 }
 
 blockquote {
